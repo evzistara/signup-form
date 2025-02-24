@@ -1,0 +1,103 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    }
+
+:root {
+    line-height: 1.5;
+    }
+
+* {
+    margin: 0;
+    }
+
+input, button, textarea, select {
+    font: inherit;
+    }
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+    }
+
+p {
+    text-wrap: pretty;
+    }
+
+h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+    }
+    
+@font-face{
+    font-family: Norse;
+    src: url("Norse-Bold.otf");
+}
+body {
+    height: 100vh;;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.left{
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+        
+}
+
+.left p{
+    font-family: Norse;
+    font-size: 5rem;
+}
+img{
+    height: 80%;
+}
+
+.logo {
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+button{
+    background-color: #596D48;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.8em 3em;
+
+}
+.right {
+    background-color: rgb(247, 246, 246);
+}
+
+.account, .intro-text{
+    padding: 2rem;
+}
+
+.intro-text{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 5rem;
+    width: 80%;
+}
+span{
+    font-style: italic;
+}
+form{
+    background-color: white;
+    padding: 2rem;
+}
+label{
+    display: block;
+}
+
+.account p{
+    margin-top: 1rem;
+}
+a{
+    color:#596D48;
+    text-decoration: none;
+}
